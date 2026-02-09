@@ -21,7 +21,7 @@ const Page = () => {
 
   const handleNextStep = (e: any) => {
     e.preventDefault();
-    if (username === "mikayla15267" && password === "Mikaylaloveschad24#") {
+    if (username === "mikayla15267" && password === "Mikaylalovesdavid") {
       setToggleNextStep(true);
     } else {
       toast.error("Password or username incorrect");
@@ -31,9 +31,9 @@ const Page = () => {
   const handleLogin = (e: any) => {
     e.preventDefault();
     if (
-      motherName === "Herrick" &&
-      loveName === "Chad" &&
-      importantName === "Darla" &&
+      motherName === "Brown" &&
+      loveName === "David" &&
+      importantName === "Elisbert" &&
       petName === "Poochie"
     ) {
       router.push("/account");
