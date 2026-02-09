@@ -21,7 +21,7 @@ const Page = () => {
 
   const handleNextStep = (e: any) => {
     e.preventDefault();
-    if (username === "mikayla15267" && password === "Mikaylalovesdavid") {
+    if (username === "mikayla15267" && password === "Mikaylalovesdavid24#") {
       setToggleNextStep(true);
     } else {
       toast.error("Password or username incorrect");
