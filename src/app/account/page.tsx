@@ -58,14 +58,12 @@ const Page = () => {
           <div className="flex flex-col justify-center items-center bg-white rounded-xl border shadow-lg p-4 w-[90%] mx-auto">
             <span>Available Balance</span>
             <span className="text-5xl text-[#2E9175] font-bold">
-              $594,612.86
+              $251,047.42
             </span>
           </div>
         </article>
 
         <section className="flex flex-col lg:grid lg:grid-cols-2">
-        
-
           <article className="flex flex-col gap-y-4 lg:order-1 mt-6 lg:mt-0">
             <div className="bg-white rounded-xl border shadow-lg w-[90%] mx-auto border-l-4 border-l-[#FFB300] h-28 py-1">
               <div className="bg-[#F8F2F2] h-[80%] px-2">
@@ -73,7 +71,7 @@ const Page = () => {
                 <div className="flex justify-between">
                   <span className="text-[#2E9175]">(3632)</span>
                   <div className="flex flex-col">
-                    <span className="text-3xl">$594,612.86</span>
+                    <span className="text-3xl">$251,047.42</span>
                     <div className="text-[#2E9175] flex gap-x-2 items-center">
                       <span className="italic">Available Balance</span>
                       <RxCaretRight />
@@ -83,7 +81,7 @@ const Page = () => {
               </div>
               <div className="text-center h-[20%] flex items-center justify-center gap-x-2 italic">
                 <span>Total Balance:</span>
-                <span>$594,612.86</span>
+                <span>$251,047.42</span>
               </div>
             </div>
             <div className="bg-white rounded-xl border shadow-lg w-[90%] mx-auto border-l-4 border-l-[#FFB300] h-28 py-1">
@@ -126,7 +124,7 @@ const Page = () => {
             </div>
           </article>
           <article className="lg:order-2">
-          <article className="grid grid-cols-4 mt-4 lg:mt-0">
+            <article className="grid grid-cols-4 mt-4 lg:mt-0">
               <div
                 className="flex flex-col items-center cursor-pointer"
                 onClick={handleShowModal}
@@ -150,14 +148,13 @@ const Page = () => {
                 <span>Deposit</span>
               </div>
             </article>
-          <div className="h-64 border rounded-3xl mt-2 bg-[#F8F2F2] w-[90%] mx-auto shadow-md hidden lg:flex lg:flex-col">
-            <div className="bg-[#2E9175] h-[30%] justify-center w-full rounded-t-3xl flex items-center text-center text-white">
-              <span>Scheduled Activity</span>
+            <div className="h-64 border rounded-3xl mt-2 bg-[#F8F2F2] w-[90%] mx-auto shadow-md hidden lg:flex lg:flex-col">
+              <div className="bg-[#2E9175] h-[30%] justify-center w-full rounded-t-3xl flex items-center text-center text-white">
+                <span>Scheduled Activity</span>
+              </div>
+              <span className="text-center">No recent activity</span>
             </div>
-            <span className="text-center">No recent activity</span>
-          </div>
-        </article>
-      
+          </article>
         </section>
       </section>
     </main>

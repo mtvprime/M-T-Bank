@@ -17,7 +17,7 @@ const ErrorModal: React.FC<props> = ({ showModal, setShowModal }) => {
           </span>
           <span className="text-red-500 px-10 ">
             You have an{" "}
-            <span className="font-bold">outstanding bill of $13,236.57!</span>
+            <span className="font-bold">outstanding bill of $13,952.58!</span>
           </span>
         </section>
       </div>
